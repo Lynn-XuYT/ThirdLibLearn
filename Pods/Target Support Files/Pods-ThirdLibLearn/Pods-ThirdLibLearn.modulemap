@@ -1,0 +1,6 @@
+module Pods_ThirdLibLearn {
+  umbrella header "Pods-ThirdLibLearn-umbrella.h"
+
+  export *
+  module * { export * }
+}

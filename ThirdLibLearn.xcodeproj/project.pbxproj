@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA8464E42254AC5D0075629D /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8464E32254AC5D0075629D /* test.swift */; };
 		BAA931F02244B97200FFB6F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA931EF2244B97200FFB6F8 /* AppDelegate.m */; };
 		BAA931F32244B97200FFB6F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA931F22244B97200FFB6F8 /* ViewController.m */; };
 		BAA931F62244B97200FFB6F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA931F42244B97200FFB6F8 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 		BAA932012244B97300FFB6F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA932002244B97300FFB6F8 /* main.m */; };
 		BAA9320B2244B97300FFB6F8 /* ThirdLibLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA9320A2244B97300FFB6F8 /* ThirdLibLearnTests.m */; };
 		BAA932162244B97300FFB6F8 /* ThirdLibLearnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA932152244B97300FFB6F8 /* ThirdLibLearnUITests.m */; };
+		F25949D766EBB5EBC34194B3 /* libPods-ThirdLibLearn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA0445011D20D8A254B9C9D /* libPods-ThirdLibLearn.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1648BA3193D00B8A74DEAC97 /* Pods-ThirdLibLearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdLibLearn.debug.xcconfig"; path = "Target Support Files/Pods-ThirdLibLearn/Pods-ThirdLibLearn.debug.xcconfig"; sourceTree = "<group>"; };
+		5BA0445011D20D8A254B9C9D /* libPods-ThirdLibLearn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThirdLibLearn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A192884639C29C2CB320B820 /* Pods-ThirdLibLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdLibLearn.release.xcconfig"; path = "Target Support Files/Pods-ThirdLibLearn/Pods-ThirdLibLearn.release.xcconfig"; sourceTree = "<group>"; };
+		BA8464E22254AC5D0075629D /* ThirdLibLearn-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThirdLibLearn-Bridging-Header.h"; sourceTree = "<group>"; };
+		BA8464E32254AC5D0075629D /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		BAA931EB2244B97200FFB6F8 /* ThirdLibLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirdLibLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA931EE2244B97200FFB6F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BAA931EF2244B97200FFB6F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F25949D766EBB5EBC34194B3 /* libPods-ThirdLibLearn.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		976768643CA5C54219FDEDEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1648BA3193D00B8A74DEAC97 /* Pods-ThirdLibLearn.debug.xcconfig */,
+				A192884639C29C2CB320B820 /* Pods-ThirdLibLearn.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BAA931E22244B97100FFB6F8 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +104,8 @@
 				BAA932092244B97300FFB6F8 /* ThirdLibLearnTests */,
 				BAA932142244B97300FFB6F8 /* ThirdLibLearnUITests */,
 				BAA931EC2244B97200FFB6F8 /* Products */,
+				976768643CA5C54219FDEDEE /* Pods */,
+				C2D8C3738C54EB0D2F21534B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +132,8 @@
 				BAA931FF2244B97300FFB6F8 /* Info.plist */,
 				BAA932002244B97300FFB6F8 /* main.m */,
 				BAA931F72244B97200FFB6F8 /* ThirdLibLearn.xcdatamodeld */,
+				BA8464E32254AC5D0075629D /* test.swift */,
+				BA8464E22254AC5D0075629D /* ThirdLibLearn-Bridging-Header.h */,
 			);
 			path = ThirdLibLearn;
 			sourceTree = "<group>";
@@ -135,6 +156,14 @@
 			path = ThirdLibLearnUITests;
 			sourceTree = "<group>";
 		};
+		C2D8C3738C54EB0D2F21534B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BA0445011D20D8A254B9C9D /* libPods-ThirdLibLearn.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAA9321A2244B97300FFB6F8 /* Build configuration list for PBXNativeTarget "ThirdLibLearn" */;
 			buildPhases = (
+				2EC8DF877F30E8410C238C37 /* [CP] Check Pods Manifest.lock */,
 				BAA931E72244B97200FFB6F8 /* Sources */,
 				BAA931E82244B97200FFB6F8 /* Frameworks */,
 				BAA931E92244B97200FFB6F8 /* Resources */,
@@ -202,6 +232,7 @@
 				TargetAttributes = {
 					BAA931EA2244B97200FFB6F8 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					BAA932052244B97300FFB6F8 = {
 						CreatedOnToolsVersion = 10.1;
@@ -260,6 +291,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2EC8DF877F30E8410C238C37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThirdLibLearn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BAA931E72244B97200FFB6F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -268,6 +324,7 @@
 				BAA931F92244B97200FFB6F8 /* ThirdLibLearn.xcdatamodeld in Sources */,
 				BAA931F32244B97200FFB6F8 /* ViewController.m in Sources */,
 				BAA932012244B97300FFB6F8 /* main.m in Sources */,
+				BA8464E42254AC5D0075629D /* test.swift in Sources */,
 				BAA931F02244B97200FFB6F8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,9 +380,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		BA8464E02254AC4B0075629D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1648BA3193D00B8A74DEAC97 /* Pods-ThirdLibLearn.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "$(SRCROOT)/ThirdLibLearn/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lynn.com;
+				PRODUCT_NAME = ThirdLibLearn;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ThirdLibLearn/ThirdLibLearn-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BA8464E12254AC4B0075629D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A192884639C29C2CB320B820 /* Pods-ThirdLibLearn.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = "$(SRCROOT)/ThirdLibLearn/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lynn.com;
+				PRODUCT_NAME = ThirdLibLearn;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ThirdLibLearn/ThirdLibLearn-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		BAA932182244B97300FFB6F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -385,6 +485,7 @@
 		BAA932192244B97300FFB6F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -435,43 +536,10 @@
 			};
 			name = Release;
 		};
-		BAA9321B2244B97300FFB6F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HYBAG3V76T;
-				INFOPLIST_FILE = ThirdLibLearn/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = T.ThirdLibLearn;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		BAA9321C2244B97300FFB6F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HYBAG3V76T;
-				INFOPLIST_FILE = ThirdLibLearn/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = T.ThirdLibLearn;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		BAA9321E2244B97300FFB6F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HYBAG3V76T;
@@ -491,6 +559,7 @@
 		BAA9321F2244B97300FFB6F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HYBAG3V76T;
@@ -510,6 +579,7 @@
 		BAA932212244B97300FFB6F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HYBAG3V76T;
 				INFOPLIST_FILE = ThirdLibLearnUITests/Info.plist;
@@ -528,6 +598,7 @@
 		BAA932222244B97300FFB6F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HYBAG3V76T;
 				INFOPLIST_FILE = ThirdLibLearnUITests/Info.plist;
@@ -558,8 +629,8 @@
 		BAA9321A2244B97300FFB6F8 /* Build configuration list for PBXNativeTarget "ThirdLibLearn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BAA9321B2244B97300FFB6F8 /* Debug */,
-				BAA9321C2244B97300FFB6F8 /* Release */,
+				BA8464E02254AC4B0075629D /* Debug */,
+				BA8464E12254AC4B0075629D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
