@@ -74,6 +74,11 @@
     NSData *dataTes = [test dataUsingEncoding:NSUTF8StringEncoding];
     NSArray *array = [NSArray arrayWithObjects:dataTes, nil];
     [socket emit:@"register" with:array];
+    
+    NSString * str = @"11111";
+    NSString *str2 = [NSString stringWithString:str];
+    str = nil;
+    NSLog(@"str = %@, str2 = %@", str, str2);
 }
 
 - (IBAction)onclic2:(id)sender
