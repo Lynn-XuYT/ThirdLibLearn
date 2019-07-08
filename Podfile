@@ -25,5 +25,5 @@ pod 'MBProgressHUD', '~> 1.1.0'
 # pod 'ReactiveCocoa', '~> 8.0'
 
 pod "CTMediator"
-pod 'Socket.IO-Client-Swift', '~> 9.0.1'
+# pod 'Socket.IO-Client-Swift', '~> 9.0.1'
 end

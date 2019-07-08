@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA82651322C3088500ABDF32 /* GuideTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA82651222C3088500ABDF32 /* GuideTipViewController.m */; };
+		BA82651722C3095E00ABDF32 /* NMGuideTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA82651522C3095E00ABDF32 /* NMGuideTipView.m */; };
 		BA8464E42254AC5D0075629D /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8464E32254AC5D0075629D /* test.swift */; };
 		BAA931F02244B97200FFB6F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA931EF2244B97200FFB6F8 /* AppDelegate.m */; };
 		BAA931F32244B97200FFB6F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA931F22244B97200FFB6F8 /* ViewController.m */; };
@@ -17,6 +19,7 @@
 		BAA932012244B97300FFB6F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA932002244B97300FFB6F8 /* main.m */; };
 		BAA9320B2244B97300FFB6F8 /* ThirdLibLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA9320A2244B97300FFB6F8 /* ThirdLibLearnTests.m */; };
 		BAA932162244B97300FFB6F8 /* ThirdLibLearnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA932152244B97300FFB6F8 /* ThirdLibLearnUITests.m */; };
+		BAB77D7622C3A88E007041B6 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB77D7522C3A88E007041B6 /* AnimationViewController.m */; };
 		F25949D766EBB5EBC34194B3 /* libPods-ThirdLibLearn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA0445011D20D8A254B9C9D /* libPods-ThirdLibLearn.a */; };
 /* End PBXBuildFile section */
 
@@ -38,9 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		036E2EB4E21A4D6E842C5F00 /* Pods-ThirdLibLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdLibLearn.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdLibLearn/Pods-ThirdLibLearn.release.xcconfig"; sourceTree = "<group>"; };
 		1648BA3193D00B8A74DEAC97 /* Pods-ThirdLibLearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdLibLearn.debug.xcconfig"; path = "Target Support Files/Pods-ThirdLibLearn/Pods-ThirdLibLearn.debug.xcconfig"; sourceTree = "<group>"; };
 		5BA0445011D20D8A254B9C9D /* libPods-ThirdLibLearn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThirdLibLearn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		808462B70963D9D18DD27D87 /* Pods-ThirdLibLearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdLibLearn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdLibLearn/Pods-ThirdLibLearn.debug.xcconfig"; sourceTree = "<group>"; };
 		A192884639C29C2CB320B820 /* Pods-ThirdLibLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdLibLearn.release.xcconfig"; path = "Target Support Files/Pods-ThirdLibLearn/Pods-ThirdLibLearn.release.xcconfig"; sourceTree = "<group>"; };
+		BA82651122C3088500ABDF32 /* GuideTipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuideTipViewController.h; sourceTree = "<group>"; };
+		BA82651222C3088500ABDF32 /* GuideTipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuideTipViewController.m; sourceTree = "<group>"; };
+		BA82651522C3095E00ABDF32 /* NMGuideTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMGuideTipView.m; sourceTree = "<group>"; };
+		BA82651622C3095E00ABDF32 /* NMGuideTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMGuideTipView.h; sourceTree = "<group>"; };
 		BA8464E22254AC5D0075629D /* ThirdLibLearn-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThirdLibLearn-Bridging-Header.h"; sourceTree = "<group>"; };
 		BA8464E32254AC5D0075629D /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		BAA931EB2244B97200FFB6F8 /* ThirdLibLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirdLibLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +69,8 @@
 		BAA932112244B97300FFB6F8 /* ThirdLibLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThirdLibLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA932152244B97300FFB6F8 /* ThirdLibLearnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdLibLearnUITests.m; sourceTree = "<group>"; };
 		BAA932172244B97300FFB6F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAB77D7422C3A88E007041B6 /* AnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		BAB77D7522C3A88E007041B6 /* AnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +104,19 @@
 			children = (
 				1648BA3193D00B8A74DEAC97 /* Pods-ThirdLibLearn.debug.xcconfig */,
 				A192884639C29C2CB320B820 /* Pods-ThirdLibLearn.release.xcconfig */,
+				808462B70963D9D18DD27D87 /* Pods-ThirdLibLearn.debug.xcconfig */,
+				036E2EB4E21A4D6E842C5F00 /* Pods-ThirdLibLearn.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA82651422C3095E00ABDF32 /* GuideView */ = {
+			isa = PBXGroup;
+			children = (
+				BA82651622C3095E00ABDF32 /* NMGuideTipView.h */,
+				BA82651522C3095E00ABDF32 /* NMGuideTipView.m */,
+			);
+			path = GuideView;
 			sourceTree = "<group>";
 		};
 		BAA931E22244B97100FFB6F8 = {
@@ -122,6 +144,7 @@
 		BAA931ED2244B97200FFB6F8 /* ThirdLibLearn */ = {
 			isa = PBXGroup;
 			children = (
+				BA82651422C3095E00ABDF32 /* GuideView */,
 				BAA931EE2244B97200FFB6F8 /* AppDelegate.h */,
 				BAA931EF2244B97200FFB6F8 /* AppDelegate.m */,
 				BAA931F12244B97200FFB6F8 /* ViewController.h */,
@@ -134,6 +157,10 @@
 				BAA931F72244B97200FFB6F8 /* ThirdLibLearn.xcdatamodeld */,
 				BA8464E32254AC5D0075629D /* test.swift */,
 				BA8464E22254AC5D0075629D /* ThirdLibLearn-Bridging-Header.h */,
+				BA82651122C3088500ABDF32 /* GuideTipViewController.h */,
+				BA82651222C3088500ABDF32 /* GuideTipViewController.m */,
+				BAB77D7422C3A88E007041B6 /* AnimationViewController.h */,
+				BAB77D7522C3A88E007041B6 /* AnimationViewController.m */,
 			);
 			path = ThirdLibLearn;
 			sourceTree = "<group>";
@@ -324,8 +351,11 @@
 				BAA931F92244B97200FFB6F8 /* ThirdLibLearn.xcdatamodeld in Sources */,
 				BAA931F32244B97200FFB6F8 /* ViewController.m in Sources */,
 				BAA932012244B97300FFB6F8 /* main.m in Sources */,
+				BAB77D7622C3A88E007041B6 /* AnimationViewController.m in Sources */,
 				BA8464E42254AC5D0075629D /* test.swift in Sources */,
+				BA82651722C3095E00ABDF32 /* NMGuideTipView.m in Sources */,
 				BAA931F02244B97200FFB6F8 /* AppDelegate.m in Sources */,
+				BA82651322C3088500ABDF32 /* GuideTipViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,13 +428,13 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ThirdLibLearn/ThirdLibLearn-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		BA8464E12254AC4B0075629D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A192884639C29C2CB320B820 /* Pods-ThirdLibLearn.release.xcconfig */;
+			baseConfigurationReference = 1648BA3193D00B8A74DEAC97 /* Pods-ThirdLibLearn.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = YES;
@@ -418,12 +448,13 @@
 				PRODUCT_NAME = ThirdLibLearn;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ThirdLibLearn/ThirdLibLearn-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 		BAA932182244B97300FFB6F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1648BA3193D00B8A74DEAC97 /* Pods-ThirdLibLearn.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -538,6 +569,7 @@
 		};
 		BAA9321E2244B97300FFB6F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1648BA3193D00B8A74DEAC97 /* Pods-ThirdLibLearn.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -578,6 +610,7 @@
 		};
 		BAA932212244B97300FFB6F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1648BA3193D00B8A74DEAC97 /* Pods-ThirdLibLearn.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
