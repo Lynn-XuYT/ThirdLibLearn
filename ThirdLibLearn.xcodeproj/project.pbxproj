@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA18EF4D22D3697B00DA93B4 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA18EF4C22D3697B00DA93B4 /* CardViewController.m */; };
+		BA18EF5022D369CA00DA93B4 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA18EF4F22D369CA00DA93B4 /* CardView.m */; };
 		BA82651322C3088500ABDF32 /* GuideTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA82651222C3088500ABDF32 /* GuideTipViewController.m */; };
 		BA82651722C3095E00ABDF32 /* NMGuideTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA82651522C3095E00ABDF32 /* NMGuideTipView.m */; };
 		BA8464E42254AC5D0075629D /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8464E32254AC5D0075629D /* test.swift */; };
@@ -46,6 +48,10 @@
 		5BA0445011D20D8A254B9C9D /* libPods-ThirdLibLearn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThirdLibLearn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		808462B70963D9D18DD27D87 /* Pods-ThirdLibLearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdLibLearn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdLibLearn/Pods-ThirdLibLearn.debug.xcconfig"; sourceTree = "<group>"; };
 		A192884639C29C2CB320B820 /* Pods-ThirdLibLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdLibLearn.release.xcconfig"; path = "Target Support Files/Pods-ThirdLibLearn/Pods-ThirdLibLearn.release.xcconfig"; sourceTree = "<group>"; };
+		BA18EF4B22D3697B00DA93B4 /* CardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		BA18EF4C22D3697B00DA93B4 /* CardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		BA18EF4E22D369CA00DA93B4 /* CardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		BA18EF4F22D369CA00DA93B4 /* CardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
 		BA82651122C3088500ABDF32 /* GuideTipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuideTipViewController.h; sourceTree = "<group>"; };
 		BA82651222C3088500ABDF32 /* GuideTipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuideTipViewController.m; sourceTree = "<group>"; };
 		BA82651522C3095E00ABDF32 /* NMGuideTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMGuideTipView.m; sourceTree = "<group>"; };
@@ -110,6 +116,17 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		BA18EF4A22D3696700DA93B4 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				BA18EF4B22D3697B00DA93B4 /* CardViewController.h */,
+				BA18EF4C22D3697B00DA93B4 /* CardViewController.m */,
+				BA18EF4E22D369CA00DA93B4 /* CardView.h */,
+				BA18EF4F22D369CA00DA93B4 /* CardView.m */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
 		BA82651422C3095E00ABDF32 /* GuideView */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +161,7 @@
 		BAA931ED2244B97200FFB6F8 /* ThirdLibLearn */ = {
 			isa = PBXGroup;
 			children = (
+				BA18EF4A22D3696700DA93B4 /* CardView */,
 				BA82651422C3095E00ABDF32 /* GuideView */,
 				BAA931EE2244B97200FFB6F8 /* AppDelegate.h */,
 				BAA931EF2244B97200FFB6F8 /* AppDelegate.m */,
@@ -350,9 +368,11 @@
 			files = (
 				BAA931F92244B97200FFB6F8 /* ThirdLibLearn.xcdatamodeld in Sources */,
 				BAA931F32244B97200FFB6F8 /* ViewController.m in Sources */,
+				BA18EF5022D369CA00DA93B4 /* CardView.m in Sources */,
 				BAA932012244B97300FFB6F8 /* main.m in Sources */,
 				BAB77D7622C3A88E007041B6 /* AnimationViewController.m in Sources */,
 				BA8464E42254AC5D0075629D /* test.swift in Sources */,
+				BA18EF4D22D3697B00DA93B4 /* CardViewController.m in Sources */,
 				BA82651722C3095E00ABDF32 /* NMGuideTipView.m in Sources */,
 				BAA931F02244B97200FFB6F8 /* AppDelegate.m in Sources */,
 				BA82651322C3088500ABDF32 /* GuideTipViewController.m in Sources */,

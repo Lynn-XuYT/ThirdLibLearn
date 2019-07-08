@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "GuideTipViewController.h"
 #import "AnimationViewController.h"
+#import "CardViewController.h"
 //@import SocketIO;
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
@@ -110,6 +111,12 @@
             }];
         }
             break;
+        case 5:{
+            CardViewController *vc = [CardViewController new];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+            
         default:
         {
             CATransition *transition = [CATransition animation];
