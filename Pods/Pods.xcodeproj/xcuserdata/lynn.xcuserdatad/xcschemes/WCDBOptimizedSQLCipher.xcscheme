@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "97AE537C62EDAF4867DB9569C94D8F9F"
+               BlueprintIdentifier = "3F1740C4C2D52C6901AC94242EC4800A"
                BuildableName = "libWCDBOptimizedSQLCipher.a"
                BlueprintName = "WCDBOptimizedSQLCipher"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -44,7 +44,6 @@
 
 /* Begin PBXFileReference section */
 		036E2EB4E21A4D6E842C5F00 /* Pods-ThirdLibLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdLibLearn.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdLibLearn/Pods-ThirdLibLearn.release.xcconfig"; sourceTree = "<group>"; };
-		1648BA3193D00B8A74DEAC97 /* Pods-ThirdLibLearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdLibLearn.debug.xcconfig"; path = "Target Support Files/Pods-ThirdLibLearn/Pods-ThirdLibLearn.debug.xcconfig"; sourceTree = "<group>"; };
 		5BA0445011D20D8A254B9C9D /* libPods-ThirdLibLearn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThirdLibLearn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		808462B70963D9D18DD27D87 /* Pods-ThirdLibLearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdLibLearn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdLibLearn/Pods-ThirdLibLearn.debug.xcconfig"; sourceTree = "<group>"; };
 		A192884639C29C2CB320B820 /* Pods-ThirdLibLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdLibLearn.release.xcconfig"; path = "Target Support Files/Pods-ThirdLibLearn/Pods-ThirdLibLearn.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,7 +107,6 @@
 		976768643CA5C54219FDEDEE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1648BA3193D00B8A74DEAC97 /* Pods-ThirdLibLearn.debug.xcconfig */,
 				A192884639C29C2CB320B820 /* Pods-ThirdLibLearn.release.xcconfig */,
 				808462B70963D9D18DD27D87 /* Pods-ThirdLibLearn.debug.xcconfig */,
 				036E2EB4E21A4D6E842C5F00 /* Pods-ThirdLibLearn.release.xcconfig */,
@@ -432,7 +430,7 @@
 /* Begin XCBuildConfiguration section */
 		BA8464E02254AC4B0075629D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1648BA3193D00B8A74DEAC97 /* Pods-ThirdLibLearn.debug.xcconfig */;
+			baseConfigurationReference = 808462B70963D9D18DD27D87 /* Pods-ThirdLibLearn.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
@@ -454,7 +452,7 @@
 		};
 		BA8464E12254AC4B0075629D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1648BA3193D00B8A74DEAC97 /* Pods-ThirdLibLearn.debug.xcconfig */;
+			baseConfigurationReference = 036E2EB4E21A4D6E842C5F00 /* Pods-ThirdLibLearn.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = YES;
@@ -474,7 +472,6 @@
 		};
 		BAA932182244B97300FFB6F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1648BA3193D00B8A74DEAC97 /* Pods-ThirdLibLearn.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -589,7 +586,6 @@
 		};
 		BAA9321E2244B97300FFB6F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1648BA3193D00B8A74DEAC97 /* Pods-ThirdLibLearn.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -630,7 +626,6 @@
 		};
 		BAA932212244B97300FFB6F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1648BA3193D00B8A74DEAC97 /* Pods-ThirdLibLearn.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

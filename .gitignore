@@ -50,11 +50,11 @@ xcuserdata/
 
 # CocoaPods
 
-Pods
+# Pods
 
-!Podfile
+# !Podfile
 
-!Podfile.lock
+# !Podfile.lock
 
 # Carthage
 

@@ -26,4 +26,6 @@ pod 'MBProgressHUD', '~> 1.1.0'
 
 pod "CTMediator"
 # pod 'Socket.IO-Client-Swift', '~> 9.0.1'
+
+pod 'lottie-ios', '~> 2.5.3'
 end
