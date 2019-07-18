@@ -12,6 +12,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CardView : UIView
 
+- (void)addToSuperview:(UIView *)view;
+@end
+
+@interface NMNameCardView : UIView
+
+- (void)addToSuperview:(UIView *)view;
 @end
 
 NS_ASSUME_NONNULL_END

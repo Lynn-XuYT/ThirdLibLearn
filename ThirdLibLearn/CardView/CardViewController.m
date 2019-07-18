@@ -8,6 +8,7 @@
 
 #import "CardViewController.h"
 #import "CardView.h"
+#import <Masonry/Masonry.h>
 
 #define PaddingTop      77
 #define Padding         13
@@ -24,12 +25,22 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     // Do any additional setup after loading the view.
-    CardView *cardView = [[CardView alloc] initWithFrame:CGRectMake(Padding, PaddingTop, ScreenWidth - Padding * 2, 1000)];
-    UIScrollView *scroll = [[UIScrollView alloc] initWithFrame:self.view.bounds];
-    scroll.backgroundColor = [UIColor colorWithRed:0 green:0 blue:1 alpha:0.3];
-    scroll.contentSize = CGSizeMake(self.view.frame.size.width, 1000);
-    [self.view addSubview:scroll];
-    [scroll addSubview:cardView];
+    NMNameCardView *cardView = [[NMNameCardView alloc] init];
+    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:self.view.bounds];
+    scrollView.backgroundColor = [UIColor colorWithRed:0 green:0 blue:1 alpha:0.3];
+//    scroll.contentSize = CGSizeMake(self.view.frame.size.width, 1000);
+    [self.view addSubview:scrollView];
+    UIView *container = [UIView new];
+    [scrollView addSubview:container];
+    [cardView addToSuperview:container];
+    [container mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(scrollView);
+        make.width.equalTo(scrollView);
+        make.bottom.equalTo(cardView.mas_bottom).offset(17);
+    }];
+    
+//    [scroll addSubview:cardView];
+    
 }
 
 /*
